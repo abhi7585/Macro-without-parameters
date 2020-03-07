@@ -15,7 +15,7 @@ Macro.
 - Total number of instructions in the expanded source code.
 
 Input 1: Input Source code with Macro calls
-
+```
 MOV R
 ABHISHEK
 DCR R
@@ -23,18 +23,18 @@ AND R
 ABHISHEK
 MUL 88
 HALT
-
+```
 Input 2: Macro definition
-
+```
 MACRO
 ABHISHEK
  ADD 30
  SUB 25
  OR R
 MEND
-
+```
 Output source code after Macro expansion:
-
+```
 MOV R
 ADD 30
 SUB 25
@@ -46,7 +46,7 @@ SUB 25
 OR R
 MUL 88
 HALT
-
+```
 Statistical output:
 Number of instructions in input source code (excluding Macro calls) = 5
 Number of Macro calls = 2
