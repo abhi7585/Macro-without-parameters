@@ -28,9 +28,9 @@ Input 2: Macro definition
 ```
 MACRO
 ABHISHEK
- ADD 30
- SUB 25
- OR R
+ADD 30
+SUB 25
+OR R
 MEND
 ```
 Output source code after Macro expansion:
@@ -48,7 +48,9 @@ MUL 88
 HALT
 ```
 Statistical output:
+```
 Number of instructions in input source code (excluding Macro calls) = 5
 Number of Macro calls = 2
 Number of instructions defined in the Macro call = 3
 Total number of instructions in the expanded source code = 11
+```
